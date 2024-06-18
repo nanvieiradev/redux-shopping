@@ -25,7 +25,6 @@ const ProductItem = ({ product }) => {
 
         const timer = setTimeout(() => {
             setAlertActive(false)
-            console.log('Alert deactivated')
         }, 3000)
 
         setAlertTimer(timer)
