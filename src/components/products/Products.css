@@ -1,0 +1,18 @@
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5em;
+    padding: 4em 2em;
+}
+
+.alert-success {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+}
+
+@media (max-width: 949px) {
+    #products {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,93 @@
+.cartItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 20em;
+}
+
+.cartItem img {
+    height: 20em;
+    min-width: 40%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cartItemControls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5em;
+    padding: 1em;
+    width: 100%;
+    height: 100%;
+}
+
+.cartItemInfo {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    color: #fff;
+}
+
+.cartItemInfo .productName {
+    font-weight: 700;
+}
+
+.cartItemInfo .productPrice {
+    font-weight: 600;
+}
+
+.cartQuantityItem {
+    display: flex;
+    align-items: center;
+    gap: .2em;
+    width: min-content;
+}
+
+.cartQuantityItem button {
+    color: #3d3f3f;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartQuantityItem button:hover {
+    color: #939291;
+}
+
+.itemQuantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #939291;
+    font-weight: 600;
+    font-size: 1.3em;
+    min-width: 24px;
+}
+
+.cartItem .deleteBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    margin-right: 0.5em;
+    font-size: 1.5em;
+    color: #f87171;
+    cursor: pointer;
+}
+
+.cartItem .deleteBtn .mdDelete{
+    display: none;
+}
+
+.cartItem .deleteBtn:hover .mdDeleteOutline {
+    display: none;
+}
+
+.cartItem .deleteBtn:hover .mdDelete {
+    display: block;
+}
