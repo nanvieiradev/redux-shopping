@@ -1,6 +1,6 @@
 {
   "homepage": "https://nanvieiradev.github.io/portfolio/redux-shopping",
-  "name": "teste_redux",
+  "name": "redux-shopping",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
